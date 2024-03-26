@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e909bae6be02b34da61e5a53cfab33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayer1Goal: 0
+  isPlayer1Goal: 1
 --- !u!1 &320831807
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,7 +999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1: 0
-  speed: 6
+  speed: 8
   rb: {fileID: 1004367519}
   startPosition: {x: 0, y: 0, z: 0}
 --- !u!61 &1004367521
@@ -1422,7 +1422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e909bae6be02b34da61e5a53cfab33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayer1Goal: 1
+  isPlayer1Goal: 0
 --- !u!1 &1931915603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1855,7 +1855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54ed63f6a3c6adb4db5a5d2bca8fe04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 7
   rb: {fileID: 4143881617801767437}
   startPosition: {x: 0, y: 0, z: 0}
 --- !u!58 &4143881617801767439
@@ -1948,7 +1948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1: 1
-  speed: 6
+  speed: 8
   rb: {fileID: 4480586268036435356}
   startPosition: {x: 0, y: 0, z: 0}
 --- !u!61 &4480586268036435358
