@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 4240ff3dc40fda142a3aa808deea1049
   - enabled: 1
+    path: Assets/Scenes/CampaignMode.unity
+    guid: e982363630dbbb34e991eca58233133b
+  - enabled: 1
     path: Assets/Scenes/BaseGame.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/GameMenu.unity
+    guid: 9c47020e9070f5e40bf3e6eb3c3a7fdc
   m_configObjects: {}
