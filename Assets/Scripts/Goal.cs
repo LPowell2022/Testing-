@@ -20,7 +20,7 @@ public class Goal : MonoBehaviour
             {
                 Debug.Log("Player 1 Scored...");
                 GameObject.Find("GameManager").GetComponent<GameManager>().Player1Scored();
-                   
+ 
             }
         }
     }

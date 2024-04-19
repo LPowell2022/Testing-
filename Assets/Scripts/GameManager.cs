@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -37,10 +38,31 @@ public class GameManager : MonoBehaviour
         ResetPosition();
     }
 
+    public void Player1Lose()
+    {
+        Player1Score--;
+        Player1Text.GetComponent<TextMeshProUGUI>().text = Player1Score.ToString();
+        ResetPosition();
+    }
+
     private void ResetPosition()
     {
         ball.GetComponent<Ball>().Reset();
         player1Paddle.GetComponent<Paddle>().Reset();
         player2Paddle.GetComponent<Paddle>().Reset();
     }
+
+    void Update ()
+        {
+               if (Input.GetKeyDown(KeyCode.R))
+        {
+            ResetPosition();
+        }
+               if (Input.GetKeyDown(KeyCode.Escape))
+                 {
+                    SceneManager.LoadScene(1);
+                 }
+          }
+
+
 }

@@ -1159,10 +1159,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1807441396}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e909bae6be02b34da61e5a53cfab33b, type: 3}
+  m_Script: {fileID: 11500000, guid: 4561701bda71ee141abdee47ee46bafd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayer1Goal: 0
+  isPlayer1Lose: 1
 --- !u!4 &1830308851 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3232716232841692512, guid: 5a3b4062666e30c41a3174010b1d3700, type: 3}
