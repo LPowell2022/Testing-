@@ -30,4 +30,19 @@ public class TitleScreen : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+
+    public void BlockBreaker()
+    {
+        SceneManager.LoadScene(5);
+    }
+
+    public void TimeTravelMenu()
+    {
+        SceneManager.LoadScene(6);
+    }
+
+    public void PS1Outdoors()
+    {
+        SceneManager.LoadScene(7);
+    }
 }
