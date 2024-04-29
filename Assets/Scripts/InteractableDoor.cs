@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class InteractableDoor : MonoBehaviour
 {
+    public int sceneNumber;
     void OnTriggerEnter(Collider other)
     {
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(sceneNumber);
         }
     }
 }
