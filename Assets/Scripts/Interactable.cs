@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class Interactable : MonoBehaviour
 {
-        void OnTriggerEnter(Collider other)
+    public int sceneNumber;
+    void OnTriggerEnter(Collider other)
+    {
         {
-                {
-                    SceneManager.LoadScene(1);
-                }
+            SceneManager.LoadScene(sceneNumber);
         }
+    }
 }
