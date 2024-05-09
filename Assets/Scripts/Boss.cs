@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.WSA;
 
-public class Monster : MonoBehaviour
+public class Boss : MonoBehaviour
 {
     public float speed;
     public Rigidbody2D rb;
