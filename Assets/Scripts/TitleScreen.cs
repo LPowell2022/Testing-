@@ -45,4 +45,9 @@ public class TitleScreen : MonoBehaviour
     {
         SceneManager.LoadScene(7);
     }
+
+    public void MultiBallMode()
+    {
+        SceneManager.LoadScene(8);
+    }
 }

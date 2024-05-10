@@ -9,7 +9,7 @@ public class Interactable : MonoBehaviour
         void OnTriggerEnter(Collider other)
         {
                 {
-                    SceneManager.LoadScene(7);
+                    SceneManager.LoadScene(1);
                 }
         }
 }

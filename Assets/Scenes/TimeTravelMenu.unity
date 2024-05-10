@@ -1544,8 +1544,8 @@ Canvas:
   m_GameObject: {fileID: 1656427750}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1051782869}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1571,13 +1571,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 683397640}
+  - {fileID: 1724278306}
   - {fileID: 642218388}
   - {fileID: 1662311425}
   - {fileID: 2036772190}
   - {fileID: 1795825662}
   - {fileID: 710626747}
   - {fileID: 1655057655}
-  - {fileID: 1724278306}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

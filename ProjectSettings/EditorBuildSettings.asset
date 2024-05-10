@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Outdoors (PSX style).unity
     guid: 31964a514e3c84943983207ada82d407
+  - enabled: 1
+    path: Assets/Scenes/Multi Ball Mode.unity
+    guid: 83121d463429d994896a896d8567918e
   m_configObjects: {}
