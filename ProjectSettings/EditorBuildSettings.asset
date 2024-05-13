@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Multi Ball Mode.unity
     guid: 83121d463429d994896a896d8567918e
+  - enabled: 1
+    path: Assets/Scenes/Arcade 1.unity
+    guid: 5140aff39cc453f4ca438b9b766663c1
   m_configObjects: {}

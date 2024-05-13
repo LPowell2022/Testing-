@@ -9,7 +9,7 @@ public class TitleScreen : MonoBehaviour
 
     public void Arcade()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(9);
     }
 
     public void MainMenu()
