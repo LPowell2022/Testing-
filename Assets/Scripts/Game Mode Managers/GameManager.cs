@@ -27,6 +27,12 @@ public class GameManager : MonoBehaviour
     [Header("Boss")]
     public GameObject boss;
 
+    [Header("Ball 2")]
+    public GameObject ball2;
+
+    [Header("Ball 3")]
+    public GameObject ball3;
+
     private int Player1Score;
     private int Player2Score;
 
@@ -54,6 +60,8 @@ public class GameManager : MonoBehaviour
     public void ResetPosition()
     {
         ball.GetComponent<Ball>().Reset();
+        ball2.GetComponent<Ball>().Reset();
+        ball3.GetComponent<Ball>().Reset();
         player1Paddle.GetComponent<Paddle>().Reset();
         player2Paddle.GetComponent<Paddle>().Reset();
     }

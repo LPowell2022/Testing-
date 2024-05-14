@@ -251,7 +251,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &230830184
 MonoBehaviour:
@@ -304,6 +304,8 @@ MonoBehaviour:
   Player2Text: {fileID: 1931915603}
   monster: {fileID: 0}
   boss: {fileID: 0}
+  ball2: {fileID: 1479606393}
+  ball3: {fileID: 1078614769}
 --- !u!4 &320831809
 Transform:
   m_ObjectHideFlags: 0
@@ -317,7 +319,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &524039522
 GameObject:
@@ -1064,7 +1066,7 @@ GameObject:
   - component: {fileID: 1078614771}
   - component: {fileID: 1078614770}
   m_Layer: 0
-  m_Name: Ball (2)
+  m_Name: Ball 3
   m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1117,7 +1119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54ed63f6a3c6adb4db5a5d2bca8fe04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 2
   rb: {fileID: 1078614772}
   startPosition: {x: -5, y: -5, z: 0}
 --- !u!50 &1078614772
@@ -1438,7 +1440,7 @@ RectTransform:
   - {fileID: 817809769}
   - {fileID: 1931915604}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1528,7 +1530,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1385677815
 BoxCollider2D:
@@ -1603,7 +1605,7 @@ GameObject:
   - component: {fileID: 1479606395}
   - component: {fileID: 1479606394}
   m_Layer: 0
-  m_Name: Ball (1)
+  m_Name: Ball 2
   m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1656,7 +1658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54ed63f6a3c6adb4db5a5d2bca8fe04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 2
   rb: {fileID: 1479606396}
   startPosition: {x: 5, y: 5, z: 0}
 --- !u!50 &1479606396
@@ -1952,7 +1954,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2071231327
 GameObject:
@@ -1985,7 +1987,7 @@ Transform:
   - {fileID: 524039523}
   - {fileID: 1115355791}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &685082528175948350
 MeshFilter:
@@ -2037,7 +2039,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &3343097694864406260
 MeshRenderer:
@@ -2183,7 +2185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54ed63f6a3c6adb4db5a5d2bca8fe04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 3
   rb: {fileID: 4143881617801767437}
   startPosition: {x: 0, y: 0, z: 0}
 --- !u!58 &4143881617801767439

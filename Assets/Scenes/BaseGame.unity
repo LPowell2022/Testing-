@@ -302,6 +302,10 @@ MonoBehaviour:
   player2Goal: {fileID: 1385677810}
   Player1Text: {fileID: 817809768}
   Player2Text: {fileID: 1931915603}
+  monster: {fileID: 0}
+  boss: {fileID: 0}
+  ball2: {fileID: 0}
+  ball3: {fileID: 0}
 --- !u!4 &320831809
 Transform:
   m_ObjectHideFlags: 0
@@ -1855,7 +1859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54ed63f6a3c6adb4db5a5d2bca8fe04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 5
   rb: {fileID: 4143881617801767437}
   startPosition: {x: 0, y: 0, z: 0}
 --- !u!58 &4143881617801767439
