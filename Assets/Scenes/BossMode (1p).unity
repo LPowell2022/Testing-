@@ -356,6 +356,8 @@ MonoBehaviour:
   Player2Text: {fileID: 1931915603}
   monster: {fileID: 919132148426365284}
   boss: {fileID: 0}
+  ball2: {fileID: 0}
+  ball3: {fileID: 0}
 --- !u!1 &524039522
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,7 +1221,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004367515}
   m_LocalRotation: {x: 0, y: -0.17364825, z: 0, w: 0.9848078}
-  m_LocalPosition: {x: 7, y: 0, z: 5.3}
+  m_LocalPosition: {x: 14.37, y: 0, z: 7.98}
   m_LocalScale: {x: 7, y: 250, z: 250}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1662,7 +1664,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2011,7 +2013,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148426365284}
   m_LocalRotation: {x: 0, y: 0.4694715, z: 0, w: 0.8829476}
-  m_LocalPosition: {x: 3.17, y: 2.21, z: 5.95}
+  m_LocalPosition: {x: 5.78, y: 2.21, z: 5.95}
   m_LocalScale: {x: 80, y: 80, z: 80}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2336,7 +2338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54ed63f6a3c6adb4db5a5d2bca8fe04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 6
   rb: {fileID: 4143881617801767437}
   startPosition: {x: 0, y: 0, z: 0}
 --- !u!58 &4143881617801767439
