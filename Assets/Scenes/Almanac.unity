@@ -634,7 +634,6 @@ GameObject:
   - component: {fileID: 153386296}
   - component: {fileID: 153386295}
   - component: {fileID: 153386294}
-  - component: {fileID: 153386293}
   - component: {fileID: 153386297}
   m_Layer: 5
   m_Name: About The Team
@@ -664,18 +663,6 @@ RectTransform:
   m_AnchoredPosition: {x: -680, y: -160}
   m_SizeDelta: {x: 425, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &153386293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153386291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc3aaa7901a334f4f8269c20a4b8a146, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &153386294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -782,13 +769,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a312416606559e6478e92dbe1a29be94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructionsText: {fileID: 0}
-  gameModesText: {fileID: 0}
-  arcadeText: {fileID: 0}
-  historyOfTennisText: {fileID: 0}
-  historyOfTennisGamesText: {fileID: 0}
-  upcomingFeaturesText: {fileID: 0}
-  teamText: {fileID: 0}
+  instructionsText: {fileID: 1041419006}
+  gameModesText: {fileID: 394973969}
+  arcadeText: {fileID: 1951198416}
+  historyOfTennisText: {fileID: 1627561982}
+  historyOfTennisGamesText: {fileID: 165939892}
+  upcomingFeaturesText: {fileID: 2013492444}
+  teamText: {fileID: 1190818858}
 --- !u!1 &165939892
 GameObject:
   m_ObjectHideFlags: 0
@@ -804,7 +791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &165939893
 Transform:
   m_ObjectHideFlags: 0
@@ -859,12 +846,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    \n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum."
+  m_text: hello7
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1019,12 +1001,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    \n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum."
+  m_text: hello6
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1318,12 +1295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    \n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum."
+  m_text: hello2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1412,7 +1384,6 @@ GameObject:
   - component: {fileID: 706188222}
   - component: {fileID: 706188221}
   - component: {fileID: 706188220}
-  - component: {fileID: 706188219}
   - component: {fileID: 706188223}
   m_Layer: 5
   m_Name: About The Arcade
@@ -1442,18 +1413,6 @@ RectTransform:
   m_AnchoredPosition: {x: -680, y: 160}
   m_SizeDelta: {x: 425, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &706188219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706188217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc3aaa7901a334f4f8269c20a4b8a146, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &706188220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1560,13 +1519,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a312416606559e6478e92dbe1a29be94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructionsText: {fileID: 0}
-  gameModesText: {fileID: 0}
-  arcadeText: {fileID: 0}
-  historyOfTennisText: {fileID: 0}
-  historyOfTennisGamesText: {fileID: 0}
-  upcomingFeaturesText: {fileID: 0}
-  teamText: {fileID: 0}
+  instructionsText: {fileID: 1041419006}
+  gameModesText: {fileID: 394973969}
+  arcadeText: {fileID: 1951198416}
+  historyOfTennisText: {fileID: 1627561982}
+  historyOfTennisGamesText: {fileID: 165939892}
+  upcomingFeaturesText: {fileID: 2013492444}
+  teamText: {fileID: 1190818858}
 --- !u!1 &736158395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1760,12 +1719,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    \n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum."
+  m_text: hello4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1923,7 +1877,6 @@ GameObject:
   - component: {fileID: 969769185}
   - component: {fileID: 969769184}
   - component: {fileID: 969769188}
-  - component: {fileID: 969769187}
   m_Layer: 5
   m_Name: History of Tennis
   m_TagString: Untagged
@@ -2046,25 +1999,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969769182}
   m_CullTransparentMesh: 1
---- !u!114 &969769187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969769182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a312416606559e6478e92dbe1a29be94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  instructionsText: {fileID: 0}
-  gameModesText: {fileID: 0}
-  arcadeText: {fileID: 0}
-  historyOfTennisText: {fileID: 0}
-  historyOfTennisGamesText: {fileID: 0}
-  upcomingFeaturesText: {fileID: 0}
-  teamText: {fileID: 0}
 --- !u!114 &969769188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2077,13 +2011,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a312416606559e6478e92dbe1a29be94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructionsText: {fileID: 0}
-  gameModesText: {fileID: 0}
-  arcadeText: {fileID: 0}
-  historyOfTennisText: {fileID: 0}
-  historyOfTennisGamesText: {fileID: 0}
-  upcomingFeaturesText: {fileID: 0}
-  teamText: {fileID: 0}
+  instructionsText: {fileID: 1041419006}
+  gameModesText: {fileID: 394973969}
+  arcadeText: {fileID: 1951198416}
+  historyOfTennisText: {fileID: 1627561982}
+  historyOfTennisGamesText: {fileID: 165939892}
+  upcomingFeaturesText: {fileID: 2013492444}
+  teamText: {fileID: 1190818858}
 --- !u!1 &1041419006
 GameObject:
   m_ObjectHideFlags: 0
@@ -2306,7 +2240,6 @@ GameObject:
   - component: {fileID: 1118162505}
   - component: {fileID: 1118162504}
   - component: {fileID: 1118162503}
-  - component: {fileID: 1118162502}
   - component: {fileID: 1118162506}
   m_Layer: 5
   m_Name: History of Tennis Games
@@ -2336,18 +2269,6 @@ RectTransform:
   m_AnchoredPosition: {x: -680, y: 0}
   m_SizeDelta: {x: 425, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1118162502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118162500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc3aaa7901a334f4f8269c20a4b8a146, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1118162503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2454,13 +2375,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a312416606559e6478e92dbe1a29be94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructionsText: {fileID: 0}
-  gameModesText: {fileID: 0}
-  arcadeText: {fileID: 0}
-  historyOfTennisText: {fileID: 0}
-  historyOfTennisGamesText: {fileID: 0}
-  upcomingFeaturesText: {fileID: 0}
-  teamText: {fileID: 0}
+  instructionsText: {fileID: 1041419006}
+  gameModesText: {fileID: 394973969}
+  arcadeText: {fileID: 1951198416}
+  historyOfTennisText: {fileID: 1627561982}
+  historyOfTennisGamesText: {fileID: 165939892}
+  upcomingFeaturesText: {fileID: 2013492444}
+  teamText: {fileID: 1190818858}
 --- !u!1 &1174145396
 GameObject:
   m_ObjectHideFlags: 0
@@ -2519,12 +2440,29 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    \n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum."
+  m_text: 'Arcade Controls:
+
+
+    WASD - Up, Left, Down, Right
+
+
+    Mouse - Look
+    Around
+
+
+    Gameplay Controls:
+
+
+    R - Reset Ball
+
+
+    W/S - Player 1 Move
+    Up and Down
+
+
+    Up/Down - Player 2 Move Up and Down
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2751,7 +2689,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1190818859
 Transform:
   m_ObjectHideFlags: 0
@@ -2824,7 +2762,6 @@ GameObject:
   - component: {fileID: 1406198290}
   - component: {fileID: 1406198289}
   - component: {fileID: 1406198288}
-  - component: {fileID: 1406198287}
   - component: {fileID: 1406198291}
   m_Layer: 5
   m_Name: About Game Modes
@@ -2854,18 +2791,6 @@ RectTransform:
   m_AnchoredPosition: {x: -680, y: 240}
   m_SizeDelta: {x: 425, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1406198287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406198285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc3aaa7901a334f4f8269c20a4b8a146, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1406198288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2972,13 +2897,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a312416606559e6478e92dbe1a29be94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructionsText: {fileID: 0}
-  gameModesText: {fileID: 0}
-  arcadeText: {fileID: 0}
-  historyOfTennisText: {fileID: 0}
-  historyOfTennisGamesText: {fileID: 0}
-  upcomingFeaturesText: {fileID: 0}
-  teamText: {fileID: 0}
+  instructionsText: {fileID: 1041419006}
+  gameModesText: {fileID: 394973969}
+  arcadeText: {fileID: 1951198416}
+  historyOfTennisText: {fileID: 1627561982}
+  historyOfTennisGamesText: {fileID: 165939892}
+  upcomingFeaturesText: {fileID: 2013492444}
+  teamText: {fileID: 1190818858}
 --- !u!1 &1502568628
 GameObject:
   m_ObjectHideFlags: 0
@@ -3037,12 +2962,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    \n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum."
+  m_text: hello5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3266,13 +3186,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a312416606559e6478e92dbe1a29be94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructionsText: {fileID: 0}
-  gameModesText: {fileID: 0}
-  arcadeText: {fileID: 0}
-  historyOfTennisText: {fileID: 0}
-  historyOfTennisGamesText: {fileID: 0}
-  upcomingFeaturesText: {fileID: 0}
-  teamText: {fileID: 0}
+  instructionsText: {fileID: 1041419006}
+  gameModesText: {fileID: 394973969}
+  arcadeText: {fileID: 1951198416}
+  historyOfTennisText: {fileID: 1627561982}
+  historyOfTennisGamesText: {fileID: 165939892}
+  upcomingFeaturesText: {fileID: 2013492444}
+  teamText: {fileID: 1190818858}
 --- !u!1 &1627561982
 GameObject:
   m_ObjectHideFlags: 0
@@ -3288,7 +3208,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1627561983
 Transform:
   m_ObjectHideFlags: 0
@@ -3430,7 +3350,6 @@ GameObject:
   - component: {fileID: 1725275997}
   - component: {fileID: 1725275996}
   - component: {fileID: 1725275995}
-  - component: {fileID: 1725275994}
   - component: {fileID: 1725275998}
   m_Layer: 5
   m_Name: Instructions
@@ -3460,18 +3379,6 @@ RectTransform:
   m_AnchoredPosition: {x: -680, y: 320}
   m_SizeDelta: {x: 425, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1725275994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1725275992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc3aaa7901a334f4f8269c20a4b8a146, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1725275995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3578,13 +3485,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a312416606559e6478e92dbe1a29be94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructionsText: {fileID: 0}
-  gameModesText: {fileID: 0}
-  arcadeText: {fileID: 0}
-  historyOfTennisText: {fileID: 0}
-  historyOfTennisGamesText: {fileID: 0}
-  upcomingFeaturesText: {fileID: 0}
-  teamText: {fileID: 0}
+  instructionsText: {fileID: 1041419006}
+  gameModesText: {fileID: 394973969}
+  arcadeText: {fileID: 1951198416}
+  historyOfTennisText: {fileID: 1627561982}
+  historyOfTennisGamesText: {fileID: 165939892}
+  upcomingFeaturesText: {fileID: 2013492444}
+  teamText: {fileID: 1190818858}
 --- !u!1 &1745746911
 GameObject:
   m_ObjectHideFlags: 0
@@ -3643,12 +3550,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    \n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum."
+  m_text: hello3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4102,7 +4004,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1951198417
 Transform:
   m_ObjectHideFlags: 0
@@ -4281,7 +4183,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2013492445
 Transform:
   m_ObjectHideFlags: 0

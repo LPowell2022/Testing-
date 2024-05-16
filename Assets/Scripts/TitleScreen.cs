@@ -74,4 +74,8 @@ public class TitleScreen : MonoBehaviour
     {
         SceneManager.LoadScene(16);
     }
+    public void Almanac()
+    {
+        SceneManager.LoadScene(17);
+    }
 }

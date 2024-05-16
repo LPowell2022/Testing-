@@ -53,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MonsterMode (2p).unity
     guid: e6e6ca826f4e68948ad4d69554e9cc49
+  - enabled: 1
+    path: Assets/Scenes/Multi Paddle Mode.unity
+    guid: 3caeeb6320d2a2f4ea48fb75b31d36ec
+  - enabled: 1
+    path: Assets/Scenes/Almanac.unity
+    guid: afdbf4989875d624bb467f0383b560a9
   m_configObjects: {}
