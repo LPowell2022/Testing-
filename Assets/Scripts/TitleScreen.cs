@@ -78,4 +78,9 @@ public class TitleScreen : MonoBehaviour
     {
         SceneManager.LoadScene(17);
     }
+
+    public void KeepUp()
+    {
+        SceneManager.LoadScene(18);
+    }
 }

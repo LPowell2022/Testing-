@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Almanac.unity
     guid: afdbf4989875d624bb467f0383b560a9
+  - enabled: 1
+    path: Assets/Scenes/KeepUp.unity
+    guid: ff348c93df47e0942a70d7a19d640ed8
   m_configObjects: {}
