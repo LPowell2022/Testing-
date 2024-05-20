@@ -804,7 +804,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1502568629}
+  - {fileID: 1011869049}
   m_Father: {fileID: 1108231518}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1883,7 +1883,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.648804, y: 374.4839}
+  m_AnchoredPosition: {x: 0, y: 337}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &862147684
@@ -1906,7 +1906,37 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: hello4
+  m_text: "The sport of table tennis originated in Victorian England, where it was
+    an after-dinner parlour game among the upper class. It is believed that British
+    military officers stationed in India in the 1860s or 1870s developed makeshift
+    versions of the game and brought it back to England. They used a row of books
+    as a net, with additional books as rackets, and a golf ball to play.\r\n\r\nThe
+    term \"ping-pong\" was widely used before being trademarked by the British manufacturer
+    J. Jaques & Son Ltd in 1901. After the trademark, \"ping-pong\" referred specifically
+    to the game played with Jaques's equipment, while other manufacturers used the
+    name \"table tennis.\" In the United States, Jaques sold the rights to Parker
+    Brothers, who enforced the trademark in the 1920s, prompting associations to
+    adopt \"table tennis\" as the official term.\r\n\r\nIn 1901, James W. Gibb, a
+    British table tennis enthusiast, discovered celluloid balls in the US and found
+    them ideal for the game. The same year, E.C. Goode invented the modern racket
+    by attaching pimpled rubber to a wooden blade. By 1901, table tennis had gained
+    significant popularity, with organized tournaments, books on the subject, and
+    an unofficial world championship in 1902. The scoring system at that time mirrored
+    lawn tennis.\r\n\r\nBoth a \"Table Tennis Association\" and a \"Ping Pong Association\"
+    existed by 1910. A new Table Tennis Association was founded in 1921, later becoming
+    the English Table Tennis Association in 1926, the same year the International
+    Table Tennis Federation (ITTF) was established. London hosted the first official
+    World Championships in 1926. The United States Table Tennis Association, now
+    USA Table Tennis, was formed in 1933.\r\n\r\nIn the 1930s, Edgar Snow noted the
+    Chinese Communist forces' enthusiasm for table tennis during the Chinese Civil
+    War, while the sport's popularity declined in the Soviet Union due to a preference
+    for team and military sports and a belief that table tennis was harmful to health.\r\n\r\nThe
+    1950s saw a\r significant change in the game with the introduction of paddles
+    that combined a rubber sheet with an underlying sponge layer, enhancing spin
+    and speed. This innovation was brought to Britain by S.W. Hancock Ltd. The use
+    of speed glue in the mid-1980s further increased the game's speed and spin, leading
+    to equipment modifications to slow the game down. Table tennis became an Olympic
+    sport in 1988."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1933,8 +1963,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1969,7 +1999,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -33.31421, z: -357.8899, w: -634.12976}
+  m_margin: {x: -498.35938, y: -171.9021, z: -564.59766, w: -720.92926}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2205,6 +2235,166 @@ MonoBehaviour:
   historyOfTennisGamesText: {fileID: 165939892}
   upcomingFeaturesText: {fileID: 2013492444}
   teamText: {fileID: 1190818858}
+--- !u!1 &1011869048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1011869049}
+  - component: {fileID: 1011869051}
+  - component: {fileID: 1011869050}
+  m_Layer: 5
+  m_Name: HistoryOfTennisGamesText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1011869049
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011869048}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -21.979858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 165939893}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 337}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1011869050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011869048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "The earliest known table tennis video game is \"Pong,\" created by Atari
+    and released in 1972. \"Pong\" was a simple black-and-white game where players
+    controlled paddles to hit a ball back and forth, mimicking the basic mechanics
+    of table tennis. This game was revolutionary, becoming a commercial success and
+    one of the first widely recognized video games.\r\n\r\nFollowing the success
+    of \"Pong,\" various developers sought to create more sophisticated table tennis
+    simulations. In the late 1970s and early 1980s, several arcade games built on
+    the \"Pong\" concept, adding features such as coloured graphics, more realistic
+    physics, and enhanced gameplay options. Notable examples include \"Video Olympics\"
+    by Atari and \"Table Tennis\" by Magnavox.\r\n\r\nThe advent of home gaming consoles
+    in the 1980s brought table tennis games into households. One significant release
+    was \"Ping-Pong\" for the Nintendo Entertainment System (NES) in 1985, developed
+    by Konami. \n\r\nAs technology advanced, so did the complexity and realism of
+    table tennis video games. The 1990s saw the release of games like \"Smash Ping
+    Pong\" for the SNES and \"The Table Tennis\" for the PlayStation, each offering
+    enhanced graphics, sound, and gameplay mechanics. These games began to incorporate
+    elements such as different playing styles, spin variations, and multiple game
+    modes, providing a deeper and more immersive experience.\r\n\r\nThe rise of motion-controlled
+    gaming systems like the Nintendo Wii further transformed the genre. \"Wii Sports,\"
+    released in 2006, included a table tennis game that allowed players to use the
+    Wii Remote to mimic real-life paddle movements, offering an engaging and physically
+    interactive experience. \n\r\nIn recent years, virtual reality (VR) has brought
+    another dimension to table tennis video games. Titles such as \"Eleven: Table
+    Tennis VR\" and \"VR Ping Pong\" offer highly immersive experiences, allowing
+    players to step into a virtual environment where they can play table tennis with
+    lifelike physics and spatial awareness.\r\n\r"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 26
+  m_fontSizeBase: 26
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -498.35938, y: -171.9021, z: -564.59766, w: -720.92926}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1011869051
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011869048}
+  m_CullTransparentMesh: 1
 --- !u!1 &1041419006
 GameObject:
   m_ObjectHideFlags: 0
@@ -3091,141 +3281,6 @@ MonoBehaviour:
   historyOfTennisGamesText: {fileID: 165939892}
   upcomingFeaturesText: {fileID: 2013492444}
   teamText: {fileID: 1190818858}
---- !u!1 &1502568628
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1502568629}
-  - component: {fileID: 1502568631}
-  - component: {fileID: 1502568630}
-  m_Layer: 5
-  m_Name: HistoryOfTennisGamesText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1502568629
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502568628}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -21.979858}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 165939893}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.648804, y: 374.4839}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1502568630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502568628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: hello5
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: -33.31421, z: -357.8899, w: -634.12976}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1502568631
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502568628}
-  m_CullTransparentMesh: 1
 --- !u!1 &1547292865
 GameObject:
   m_ObjectHideFlags: 0
@@ -4511,7 +4566,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2013492445
 Transform:
   m_ObjectHideFlags: 0
